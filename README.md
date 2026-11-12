@@ -4,7 +4,7 @@
 
 ## 简体中文
 
-在 TeXstudio 中用鼠标或键盘选中 LaTeX 文本后，编辑器下方的行号、列号和选区长度那一行会实时显示 `English 3 · 汉字 4 · Total 7`。扩展以独立的 Qt 通用插件 DLL 加载，继续使用原版 TeXstudio 和已有配置。
+在 TeXstudio 中用鼠标或键盘选中 LaTeX 文本后，英文词数、汉字数和总数会随选区变化实时更新，显示在编辑器底部的行号、列号和选区长度同一行。例如，选区包含 3 个英文单词和 4 个汉字时，会显示 `English 3 · 汉字 4 · Total 7`。扩展以独立的 Qt 通用插件 DLL 加载，继续使用原版 TeXstudio 和已有配置。
 
 ### 兼容性
 
@@ -36,7 +36,7 @@
 
 ## English
 
-Select LaTeX text with the mouse or keyboard to see a live count beside the line, column, and selection indicators at the bottom of the TeXstudio editor. For example, the label can read `English 3 · 汉字 4 · Total 7`. The extension loads as a separate Qt plugin DLL and works with an existing TeXstudio installation and its settings.
+Select LaTeX text with the mouse or keyboard to see the English word count, Han character count, and total beside the line, column, and selection indicators at the bottom of the TeXstudio editor. The counts update as the selection changes. For example, a selection containing three English words and four Han characters displays `English 3 · 汉字 4 · Total 7`. The extension loads as a separate Qt plugin DLL and works with an existing TeXstudio installation and its settings.
 
 ### Compatibility
 
